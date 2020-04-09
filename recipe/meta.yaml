@@ -1,5 +1,5 @@
 {% set name = "pymemcache" %}
-{% set version = "3.0.1" %}
+{% set version = "3.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ed725481d950e06cf2410c01162124e74a67ab5f71596cd72ffecc3ed414d3e1
+  sha256: da48a8e462e9cd95145c19d06ec0c07f87f71e8638def74a7d518e81154051ea
 
 build:
   noarch: python
@@ -31,7 +31,7 @@ test:
 
 about:
   home: https://github.com/Pinterest/pymemcache
-  license: Apache
+  license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE.txt
   summary: A comprehensive, fast, pure Python memcached client

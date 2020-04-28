@@ -3,7 +3,7 @@ About pymemcache
 
 Home: https://github.com/Pinterest/pymemcache
 
-Package license: Apache
+Package license: Apache-2.0
 
 Feedstock license: BSD 3-Clause
 

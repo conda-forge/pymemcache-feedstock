@@ -1,5 +1,5 @@
 {% set name = "pymemcache" %}
-{% set version = "3.3.0" %}
+{% set version = "3.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 54fd2b7ce53671ea6df56cd747628bdfb0fc03a2e7c66e290a106e6b48c5c5ad
+  sha256: 47882ab1c7e5e1dea67df8aa9faf410ce82e606fd5f29501273a60ff61d7cc99
 
 build:
   noarch: python

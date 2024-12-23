@@ -18,10 +18,9 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - six
+    - setuptools
   run:
     - python >={{ python_min }}
-    - six
 
 test:
   requires:
